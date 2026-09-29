@@ -4,7 +4,7 @@ Author: Anthony Brureau
 
 ## Overview
 
-This R script compares 17 predefined variable panels using linear discriminant analysis (LDA) for studies 20-184 and 20-066. It trains classifiers on placebo-treated WT and Ko samples, computes leave-one-out cross-validation (LOOCV) classification metrics, and applies the fitted models to all samples retained by the sex, muscle and age filters.
+This R script compares 17 predefined variable panels using linear discriminant analysis (LDA). It trains classifiers on placebo-treated WT and Ko samples, computes leave-one-out cross-validation (LOOCV) classification metrics, and applies the fitted models to all samples retained by the sex, muscle and age filters.
 
 Outputs include LDA scores, comparisons against the Ko group, ROC curves, model rankings and figures. This README describes the supplied script as implemented; it does not certify statistical validation. The input workbook was not supplied with the script, and execution against the study data has not been verified for this documentation.
 
